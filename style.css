@@ -24,6 +24,7 @@ header {
   align-items: center;
   background: var(--header-bg-color);
   padding: 0.7rem 3rem;
+  position: relative;
 }
 .logo {
   width: 60px;
@@ -36,6 +37,11 @@ header {
 .navigation {
   width: fit-content;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,6 +99,51 @@ header {
 }
 .header-icons span {
   font-size: 1.1rem;
+}
+@media (max-width: 600px) {
+  header {
+    padding: 0.7rem 1rem;
+  }
+  .header-icons {
+    display: none;
+  }
+  .nav-links {
+    width: 100%;
+    height: auto;
+    background: var(--header-bg-color);
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .hamburger-menu i {
+    font-size: 1.7rem;
+  }
+  .links {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links a {
+    display: block;
+    padding: 1rem;
+  }
+  .icon-and-converter {
+    position: absolute;
+    right: 3.8rem;
+  }
+  .converter p span {
+    color: var(--color-black);
+  }
+  .converter-with-search-icon span.search {
+    display: none;
+  }
 }
 
 /* hero-section */
