@@ -1,0 +1,50 @@
+:root {
+  /* ===== Primary Colors ===== */
+  --color-primary: #c4a484; /* Warm tan/beige - main brand color */
+  --color-primary-light: #d4b896; /* Lighter tan for hover states */
+  --color-primary-dark: #a6845c; /* Darker tan for accents */
+
+  /* ===== Neutral Colors ===== */
+  --color-black: #3d3d3d; /* Deep black for headings */
+  --color-black-2: #222222;
+  --arrow-down-color: rgba(34, 34, 34, 0.1333); /* For arrows*/
+  --color-dark-brown: #3d3024; /* Dark brown for text */
+  --color-brown: #5c4a3a; /* Medium brown for body text */
+  --color-warm-gray: #8b7355; /* Warm gray-brown for subtle text */
+
+  /* ===== Background Colors ===== */
+  --header-bg-color: #ebe8e5;
+  --color-cream: #faf7f3; /* Cream white for backgrounds */
+  --color-off-white: #f5ede3; /* Off-white/light beige sections */
+  --color-beige: #e8ded0; /* Soft beige for cards */
+  --color-white: #ffffff; /* Pure white */
+  --color-light-tan: #f5efe9; /* Light tan for alternating sections */
+
+  /* ===== Accent Colors ===== */
+  --color-gold: #b8956e; /* Gold accent for premium elements */
+  --color-bronze: #9a7b5b; /* Bronze for highlights */
+  --color-champagne: #d4c4a8; /* Champagne for soft highlights */
+
+  /* ===== Skin Tone Palette ===== */
+  --color-skin-light: #f7f0e8; /* Light skin tone */
+  --color-skin-medium: #c5935c; /* Medium skin tone */
+  --color-skin-tan: #a67c52; /* Tan skin tone */
+  --color-skin-deep: #8b5a3c; /* Deep skin tone */
+
+  /* ===== UI States ===== */
+  --color-border: #e0d5c5; /* Subtle borders */
+  --color-shadow: rgba(0, 0, 0, 0.08); /* Soft shadows */
+  --color-overlay: rgba(0, 0, 0, 0.4); /* Dark overlay for modals */
+
+  /* ===== Typography ===== */
+  --color-text-primary: #1a1a1a; /* Main heading text */
+  --color-text-secondary: #5c4a3a; /* Body text */
+  --color-text-muted: #8b7355; /* Muted/secondary text */
+  --color-text-light: #ffffff; /* Light text on dark backgrounds */
+
+  /* ===== Button Colors ===== */
+  --color-btn-primary: #1a1a1a; /* Primary button background */
+  --color-btn-primary-hover: #3d3024; /* Primary button hover */
+  --color-btn-secondary: #c4a484; /* Secondary button background */
+  --color-btn-secondary-hover: #a6845c; /* Secondary button hover */
+}
