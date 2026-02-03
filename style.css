@@ -1184,15 +1184,25 @@ footer {
   footer {
     padding: 3rem 1.5rem;
   }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .footer-left,
+  .footer-right {
+    width: 100%;
+    text-align: center;
+  }
   .footer-right {
     grid-template-columns: 1fr;
-    gap: 2rem;
-    text-align: center;
+    gap: 2.5rem;
   }
   .footer-col ul {
     list-style-type: none;
+    padding-left: 0;
   }
-  .soc-icons {
+  .social-icons {
     justify-content: center;
   }
   .logo-social {
