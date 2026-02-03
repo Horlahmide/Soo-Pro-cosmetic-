@@ -23,12 +23,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Soo Pro Cosmetics</title>
   </head>
   <body>
     <section class="Header-and-hero-section">
       <header>
-        <div class="logo">
+        <div class="logo" data-aos="fade-down">
           <img src="./Images/Soo_pro_favicon-removebg-preview.png" alt="Logo" />
         </div>
 
@@ -37,22 +39,26 @@
             <i class="fa-solid fa-bars"></i>
           </div>
           <div class="nav-links">
-            <div class="links">
+            <div class="links" data-aos="fade-down" data-aos-delay="100">
               <a href="#">Home</a>
             </div>
-            <div class="links">
+            <div class="links" data-aos="fade-down" data-aos-delay="200">
               <a href="#">Categories</a>
             </div>
-            <div class="links">
+            <div class="links" data-aos="fade-down" data-aos-delay="300">
               <a href="#">Book Appointments</a>
             </div>
-            <div class="links">
+            <div class="links" data-aos="fade-down" data-aos-delay="400">
               <a href="#">Retailers</a>
             </div>
           </div>
         </div>
 
-        <div class="icon-and-converter">
+        <div
+          class="icon-and-converter"
+          data-aos="fade-down"
+          data-aos-delay="500"
+        >
           <div class="converter-with-search-icon">
             <span class="material-symbols-outlined search"> search </span>
             <div class="converter">
@@ -71,13 +77,13 @@
       </header>
 
       <div class="hero-section">
-        <div class="hero-text">
+        <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
           <h1>Uncover Beauty That Speaks<br />Without Words</h1>
-          <p>
+          <p data-aos="fade-up" data-aos-delay="200">
             Bring out your natural radiance with products that respect your skin
             and the planet. <br />Discover a new level of beauty
           </p>
-          <button class="hero-bth">
+          <button class="hero-bth" data-aos="fade-up" data-aos-delay="400">
             Explore Collection<span class="material-symbols-outlined">
               arrow_right_alt
             </span>
@@ -87,7 +93,7 @@
     </section>
 
     <section class="category-section">
-      <div class="category-heading">
+      <div class="category-heading" data-aos="fade-right">
         <div class="heading">
           <h2>Shop by category</h2>
           <p>Find the essentials that elevate your everyday beauty</p>
@@ -97,7 +103,7 @@
         </div>
       </div>
       <div class="category-flex-container">
-        <div class="category-product">
+        <div class="category-product" data-aos="fade-up" data-aos-delay="100">
           <img src="./Images/Category-pic-1.png" alt="" />
           <div class="see-more">
             <div class="text">
@@ -109,7 +115,7 @@
             </div>
           </div>
         </div>
-        <div class="category-product">
+        <div class="category-product" data-aos="fade-up" data-aos-delay="200">
           <img src="./Images/Category-pic-2.png" alt="" />
           <div class="see-more">
             <div class="text">
@@ -121,7 +127,7 @@
             </div>
           </div>
         </div>
-        <div class="category-product">
+        <div class="category-product" data-aos="fade-up" data-aos-delay="300">
           <img src="./Images/Category-pic-3.png" alt="" />
           <div class="see-more">
             <div class="text">
@@ -133,7 +139,7 @@
             </div>
           </div>
         </div>
-        <div class="category-product">
+        <div class="category-product" data-aos="fade-up" data-aos-delay="400">
           <img src="./Images/Lip-Card-4.png" alt="" />
           <div class="see-more">
             <div class="text">
@@ -149,7 +155,7 @@
     </section>
 
     <section class="best-seller-section">
-      <div class="intro-text">
+      <div class="intro-text" data-aos="fade-up">
         <h2>Shop Bestseller</h2>
         <p>
           Discover our most-loved products, chosen by beauty enthusiasts just
@@ -158,7 +164,7 @@
       </div>
 
       <div class="best-seller-flex-container">
-        <div class="product-price">
+        <div class="product-price" data-aos="zoom-in" data-aos-delay="100">
           <div class="product-price-img">
             <img src="./Images/Product-design-1.png" alt="" />
           </div>
@@ -168,7 +174,7 @@
             <p>₦12,5OO</p>
           </div>
         </div>
-        <div class="product-price">
+        <div class="product-price" data-aos="zoom-in" data-aos-delay="200">
           <div class="product-price-img">
             <img src="./Images/Category-pic-1.png" alt="" />
           </div>
@@ -178,7 +184,7 @@
             <p>₦6,OOO</p>
           </div>
         </div>
-        <div class="product-price">
+        <div class="product-price" data-aos="zoom-in" data-aos-delay="300">
           <div class="product-price-img">
             <img src="./Images/Product-design-2.png" alt="" />
           </div>
@@ -192,10 +198,10 @@
     </section>
 
     <section class="split-screen-section">
-      <div class="left-section-img">
+      <div class="left-section-img" data-aos="fade-right">
         <img src="./Images/picture.jpg" alt="" />
       </div>
-      <div class="right-section-text">
+      <div class="right-section-text" data-aos="fade-left">
         <div class="eclipse">
           <img src="./Images/Ellipse 6.png" alt="" />
           <img src="./Images/Ellipse 6.png" alt="" />
@@ -214,7 +220,7 @@
           </button>
         </div>
         <div class="left-flex-container">
-          <div class="product-price-2">
+          <div class="product-price-2" data-aos="fade-up" data-aos-delay="200">
             <div class="product-price-img size">
               <img src="./Images/Model-Product-1.png" alt="" />
             </div>
@@ -224,7 +230,7 @@
               <p>₦7,5OO</p>
             </div>
           </div>
-          <div class="product-price-2">
+          <div class="product-price-2" data-aos="fade-up" data-aos-delay="300">
             <div class="product-price-img size">
               <img src="./Images/Model-Product-1.png" alt="" />
             </div>
@@ -234,7 +240,7 @@
               <p>₦12,OOO</p>
             </div>
           </div>
-          <div class="product-price-2">
+          <div class="product-price-2" data-aos="fade-up" data-aos-delay="400">
             <div class="product-price-img size">
               <img src="./Images/Model-Product-2.png" alt="" />
             </div>
@@ -249,7 +255,7 @@
     </section>
 
     <section class="product-in-action-section">
-      <div class="intro-text second">
+      <div class="intro-text second" data-aos="fade-up">
         <h2>See our products in action</h2>
         <p>
           Discover our most-loved products, chosen by beauty enthusiasts just
@@ -257,7 +263,11 @@
         </p>
       </div>
       <div class="product-in-action-flex-container">
-        <div class="category-product diff">
+        <div
+          class="category-product diff"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <img src="./Images/Product-in-use-1.png" alt="" />
           <div class="see-more">
             <div class="text">
@@ -269,7 +279,11 @@
             </div>
           </div>
         </div>
-        <div class="category-product diff">
+        <div
+          class="category-product diff"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <img src="./Images/Product-in-use-2.png" alt="" />
           <div class="see-more">
             <div class="text">
@@ -281,7 +295,11 @@
             </div>
           </div>
         </div>
-        <div class="category-product diff">
+        <div
+          class="category-product diff"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <img src="./Images/Product-in-use-3.png" alt="" />
           <div class="see-more">
             <div class="text">
@@ -297,13 +315,13 @@
     </section>
 
     <section class="three-splited-testimonial-section">
-      <div class="left">
+      <div class="left" data-aos="fade-right">
         <div class="left-text">
           <h2>Testimonial</h2>
           <p>Find the essentials that elevate your<br />everyday beauty</p>
         </div>
       </div>
-      <div class="middle">
+      <div class="middle" data-aos="zoom-in" data-aos-duration="1000">
         <div class="image-1">
           <img src="./Images/without-blur.png" alt="" />
         </div>
@@ -311,7 +329,7 @@
           <img src="./Images/Blur.png" alt="" />
         </div>
       </div>
-      <div class="right">
+      <div class="right" data-aos="fade-left">
         <div class="right-text">
           <div class="top">
             <h2>Mary Godwin</h2>
@@ -336,7 +354,7 @@
     </section>
 
     <section class="display-looks-section">
-      <div class="right-side">
+      <div class="right-side" data-aos="fade-right">
         <div class="right-side-text">
           <p>#MySoooproLook</p>
           <p>
@@ -351,22 +369,22 @@
         </div>
       </div>
       <div class="display-flex-containers">
-        <div class="display-img">
+        <div class="display-img" data-aos="fade-up" data-aos-delay="100">
           <img src="./Images/photo-1.png" alt="" />
         </div>
-        <div class="display-img">
+        <div class="display-img" data-aos="fade-up" data-aos-delay="200">
           <img src="./Images/photo-2.png" alt="" />
         </div>
-        <div class="display-img">
+        <div class="display-img" data-aos="fade-up" data-aos-delay="300">
           <img src="./Images/photo-3-new.png" alt="" />
         </div>
-        <div class="display-img">
+        <div class="display-img" data-aos="fade-up" data-aos-delay="400">
           <img src="./Images/photo-4.png" alt="" />
         </div>
-        <div class="display-img">
+        <div class="display-img" data-aos="fade-up" data-aos-delay="500">
           <img src="./Images/Photo-5.png" alt="" />
         </div>
-        <div class="display-img">
+        <div class="display-img" data-aos="fade-up" data-aos-delay="600">
           <img src="./Images/Photo-6.png" alt="" />
         </div>
       </div>
@@ -374,21 +392,21 @@
 
     <section class="mini-info-section">
       <div class="info-container">
-        <div class="info">
+        <div class="info" data-aos="fade-up" data-aos-delay="100">
           <span class="material-symbols-outlined"> deployed_code </span>
           <div>
             <p>Free Delivery</p>
             <p>Enjoy free deliver on orders above<br />N150,000</p>
           </div>
         </div>
-        <div class="info">
+        <div class="info" data-aos="fade-up" data-aos-delay="200">
           <span class="material-symbols-outlined"> shield_lock </span>
           <div>
             <p>Secure Payment</p>
             <p>Your transactions are encrypted and<br />protected</p>
           </div>
         </div>
-        <div class="info">
+        <div class="info" data-aos="fade-up" data-aos-delay="300">
           <span class="material-symbols-outlined"> headset_mic </span>
           <div>
             <p>24/7 Customer Support</p>
@@ -422,7 +440,7 @@
         </div>
 
         <div class="footer-right">
-          <div class="footer-col">
+          <div class="footer-col" data-aos="fade-up" data-aos-delay="100">
             <h3>My Account</h3>
             <ul>
               <li><a href="#">My cart</a></li>
@@ -432,7 +450,7 @@
             </ul>
           </div>
 
-          <div class="footer-col">
+          <div class="footer-col" data-aos="fade-up" data-aos-delay="200">
             <h3>Our Company</h3>
             <ul>
               <li><a href="#">Our Story</a></li>
@@ -442,7 +460,11 @@
             </ul>
           </div>
 
-          <div class="footer-col contact-col">
+          <div
+            class="footer-col contact-col"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <h3>Contact Us</h3>
             <p class="contact-sub">Got Questions? Call us</p>
             <div class="contact-item">
@@ -465,6 +487,14 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200, // Global animation duration in ms
+        once: true, // Animation happens only once
+      });
+    </script>
     <script src="./script.js"></script>
   </body>
 </html>

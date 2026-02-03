@@ -11,6 +11,18 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
+
+body,
+html {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--color-black);
+  line-height: 1.6;
+}
 .Header-and-hero-section {
   width: 100%;
   height: 100vh;
@@ -247,6 +259,7 @@ header {
   width: 100%;
   height: auto;
   padding: 4rem;
+  overflow-x: hidden; /* Prevent side-scroll during animations */
 }
 .category-heading {
   width: 100%;
@@ -398,6 +411,7 @@ header {
   width: 100%;
   height: auto;
   padding: 4rem;
+  overflow: hidden; /* Extra protection for side animations */
 }
 .intro-text {
   width: 100%;
@@ -504,6 +518,7 @@ header {
   align-items: stretch; /* Match height of children */
   column-gap: 2rem;
   padding: 4rem; /* Match other sections padding */
+  overflow: hidden; /* Extra protection for side animations */
 }
 .left-section-img {
   width: 50%;
@@ -680,6 +695,7 @@ header {
   height: auto;
   background: var(--color-cream);
   padding: 6rem 4rem 4rem 4rem;
+  overflow: hidden; /* Extra protection for side animations */
 }
 .product-in-action-flex-container {
   width: 100%;
@@ -739,6 +755,7 @@ header {
   align-items: center;
   padding: 6rem 4rem;
   background: var(--color-cream);
+  overflow: hidden; /* Extra protection for side animations */
 }
 .left {
   width: 25%;
@@ -840,6 +857,7 @@ header {
   padding: 7rem 4rem 4rem 4rem;
   column-gap: 1rem;
   background: var(--color-cream);
+  overflow: hidden; /* Extra protection for side animations */
 }
 .right-side {
   width: 500px;
@@ -954,6 +972,7 @@ header {
   height: auto;
   padding: 4rem;
   background: var(--color-cream);
+  overflow: hidden; /* Extra protection for side animations */
 }
 .info-container {
   width: 100%;
@@ -1140,18 +1159,24 @@ footer {
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
   footer {
-    padding: 5rem 3rem;
+    padding: 5rem 2rem; /* Reduced horizontal padding for more space */
   }
   .footer-container {
-    flex-direction: column;
-    gap: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
   }
-  .footer-left,
-  .footer-right {
-    width: 100%;
+  .footer-left {
+    width: 20%; /* Reduced from 25% */
   }
   .footer-right {
-    grid-template-columns: repeat(2, 1fr);
+    width: 80%; /* Increased from 70% */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; /* Further reduced gap */
+  }
+  .footer-col h3 {
+    font-size: 1.4rem; /* Reduced to prevent wrapping */
+    white-space: nowrap; /* Force single line */
   }
 }
 
@@ -1227,8 +1252,12 @@ footer {
   .mini-info-section {
     padding: 3rem 1.5rem;
   }
+
   .info {
     padding: 0 1.2rem;
+  }
+  .info div p:nth-child(2) br {
+    display: none;
   }
 }
 
