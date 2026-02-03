@@ -174,7 +174,7 @@ header {
   /* Added overlay to ensure text readability if needed, though image seems dark enough */
   background:
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./Images/New-Hero-img.png");
+    url("./Images/New-Hero-img.webp");
   /* background: url("./Images/New-Hero-img.png"); */
   background-repeat: no-repeat;
   background-size: cover;
