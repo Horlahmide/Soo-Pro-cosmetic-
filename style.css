@@ -1231,7 +1231,6 @@ footer {
   }
   .left-text {
     gap: 0.4rem; /* Match intro-text gap */
-    margin-bottom: 2rem;
   }
   .left-text h2,
   .top h2 {
@@ -1247,6 +1246,14 @@ footer {
     height: 500px; /* Space for images */
     position: relative;
     width: 370px;
+  }
+  @media (max-width: 600px) {
+    .image-1,
+    .image-2 {
+      width: 270px;
+      height: 370px;
+      border-radius: 25px;
+    }
   }
   /* Mini Info Tablet */
   .mini-info-section {
