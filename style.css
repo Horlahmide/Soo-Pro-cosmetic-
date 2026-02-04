@@ -131,6 +131,7 @@ header {
     visibility: hidden;
     transform: translateX(100%);
     transition: all 0.3s ease;
+    z-index: 1;
   }
   .nav-links.appear {
     visibility: visible;
